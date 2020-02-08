@@ -72,7 +72,7 @@ seq &modCntrl,"MODULE=R3S18,HS=10,LS=9"
 #< R3_LV_VD_ntrlk.init
 #epicsThreadSleep(5)
 
-< R3_HV_setpt.init
+#< R3_HV_setpt.init
 
 dbpf("${IOC}:SysReset.ASG","ALLWRITE")
 

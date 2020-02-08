@@ -7,6 +7,20 @@ record(ai,"B_DET_BMT_HV_DRIFT:safe:vcfg") {
     field(VAL,"200")
     field(PINI,"1")
 }
+record(seq,"B_DET_BMT_HV:vsafe") {
+    field(DOL1,"1")
+    field(DOL2,"1")
+    field(DOL3,"1")
+    field(DOL4,"1")
+    field(DOL5,"1")
+    field(DOL6,"1")
+    field(LNK1,"B_DET_BMT_HV_SEC1_DRIFT:safe:vset.PROC")
+    field(LNK2,"B_DET_BMT_HV_SEC2_DRIFT:safe:vset.PROC")
+    field(LNK3,"B_DET_BMT_HV_SEC3_DRIFT:safe:vset.PROC")
+    field(LNK4,"B_DET_BMT_HV_SEC1_STRIP:safe:vset.PROC")
+    field(LNK5,"B_DET_BMT_HV_SEC2_STRIP:safe:vset.PROC")
+    field(LNK6,"B_DET_BMT_HV_SEC3_STRIP:safe:vset.PROC")
+}
 record(seq,"B_DET_BMT_HV:safe") {
     field(DOL1,"1")
     field(DOL2,"1")

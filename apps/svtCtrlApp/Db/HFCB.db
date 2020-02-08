@@ -431,6 +431,7 @@ record(ao,"$(HV):outputCurrent") {
 	field(PREC,"5")
 	field(EGU,"uA")
 	field(HOPR,"5")
+    info(autosaveFields,"VAL")
 }
 record(ao,"$(HV):outputCurrentC") {
 	field(DTYP,"Snmp")
