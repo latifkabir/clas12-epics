@@ -10,7 +10,7 @@ dbLoadDatabase("dbd/krister.dbd")
 krister_registerRecordDeviceDriver(pdbbase)
 
 # MOXA hostname and port number:
-drvAsynIPPortConfigure("SER1", "hallb-moxa6:4001")
+drvAsynIPPortConfigure("SER1", "hallb-moxa99:4001")
 
 ## debugging...
 #asynSetTraceMask("SER1",-1,0x09)
